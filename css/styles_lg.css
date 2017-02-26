@@ -1,0 +1,60 @@
+
+.container, header, main, .main_lower  {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+header, main, .main_top, .main_lower {
+  width: 100%;
+}
+
+.header_right {
+  width: 50%;
+  text-align: right;
+}
+
+.header_left  {
+  width: 50%;
+}
+
+.main_lower_heading {
+  width: 100%;
+}
+
+figure {
+  width: 30%;
+}
+
+.project_image {
+  width: 100%;
+}
+
+.left {
+  margin: 0 auto 0 0;
+}
+
+.center {
+  margin: 0 auto 0;
+}
+
+.right  {
+  margin: 0 0 0 auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
+
+p {
+  font-size: 0.6em;
+  font-weight: bold;
+}
